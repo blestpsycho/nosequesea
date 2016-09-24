@@ -16,18 +16,9 @@ class Telegram_Alarm(Alarm):
 	_defaults = {
 		'pokemon':{
 			#'chat_id': If no default, required
-			'title': "A wild <pkmn> has appeared!",
-			'body': "Available until <24h_time> (<time_left>)."
-		},
-		'pokestop':{
-			#'chat_id': If no default, required
-			'title':"Someone has placed a lure on a Pokestop!",
-			'body': "Lure will expire at <24h_time> (<time_left>)."
-		},
-		'gym':{
-			#'chat_id': If no default, required
-			'title':"A Team <old_team> gym has fallen!",
-			'body': "It is now controlled by <new_team>."
+			'title': "¡Un pokémon salvaje <pkmn> ha aparecido!",
+			'body': "desaparecera a las <24h_time> - tiempo restante (<time_left>)."
+		
 		}
 	}
 	
